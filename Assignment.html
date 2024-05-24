@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanchan Basel</title>
+    <style>
+        body {
+            font-family: Georgia, Times, 'Times New Roman', serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgba(2, 59, 18, 0.689);
+            color: #333;
+            font-size: medium;
+        }
+        header {
+            background-image: url('header-background.jpg');
+            background-size: cover;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .logo {
+            max-width: 100px;
+        }
+        .tagline {
+            font-style: italic;
+            margin: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin: 40px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-image, .education-image, .collage-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .caption {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        footer nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        footer nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        footer nav ul li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #thankyou {
+            text-align: center;
+            background-color: #d4edda;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #155724;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/Users/uzwolkhatri/Desktop/Assignment/Picture 1.png" alt="My Logo" class="logo">
+        <h1>Kanchan Basel </h1>
+        <p class="tagline">"Coding Creativity into Reality"</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#collage">Digital Images</a></li>
+                <li><a href="#video">Digital Video</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <img src="/Users/uzwolkhatri/Desktop/Assignment/IMG_0604.JPG" alt="A picture of me" class="profile-image">
+            <p class="goals">Hello! I'm Kanchan Basel, an aspiring web developer at the beginning of my journey into the exciting world of technology. Having completed high school last year, I'm now in my second trimester of pursuing a Bachelor's degree in Networking.<br><br>
+                My interest in web development sparked during my high school years, where I was fascinated by how websites are built and how they function. This curiosity led me to start learning the basics of HTML, CSS, and JavaScript, and I am now dedicated to developing my skills further.<br><br>
+                Although I am just starting out, I am passionate about learning and exploring the vast possibilities in web development. I am particularly excited about front-end development, where I can blend creativity and technical skills to create visually appealing and user-friendly websites.<br><br>
+                Thank you for visiting my personal website. I invite you to explore my projects, learn more about my journey, and get in touch if you'd like to connect or collaborate. Let's embark on this exciting journey together and create something amazing!
+            </p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>I have achieved a Bachelor's degree in Computer Science and am currently enrolled in a Master's program in Information Technology.</p>
+            <img src="graduation.jpg" alt="Graduation Picture" class="education-image">
+            <p class="caption">Graduation Day</p>
+        </section>
+        <section id="collage">
+            <h2>Digital Images</h2>
+            <p>Here is a collage I created for my assignment.</p>
+            <img src="collage.jpg" alt="Collage Image" class="collage-image">
+            <p class="caption">My Digital Collage</p>
+            <p>To create this collage, I used various images representing my interests and edited them using Photoshop.</p>
+        </section>
+        <section id="video">
+            <h2>Digital Video</h2>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>I edited this video by trimming unwanted sections and adding transitions between scenes using Adobe Premiere Pro.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>As an aspiring web developer, I have developed skills in HTML, CSS, JavaScript, and React. Here is a video explaining some essential skills required for web development:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#thankyou" method="post" onsubmit="thankYouMessage(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="thankyou" style="display: none;">
+            <h2>Thank You</h2>
+            <p>Thank you for your submission. We will get back to you shortly.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="https://facebook.com/yourprofile">Facebook</a></li>
+                <li><a href="https://twitter.com/yourprofile">Twitter</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        function thankYouMessage(event) {
+            event.preventDefault();
+            document.getElementById('contact').style.display = 'none';
+            document.getElementById('thankyou').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
